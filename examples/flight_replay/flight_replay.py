@@ -1,13 +1,3 @@
-"""
-© Copyright 2015-2016, 3D Robotics.
-flight_replay.py: 
-
-This example requests a past flight from Droneshare, and then 'replays' 
-the flight by sending waypoints to a vehicle.
-
-Full documentation is provided at http://python.dronekit.io/examples/flight_replay.html
-"""
-
 from dronekit import connect, Command, VehicleMode, LocationGlobalRelative
 from pymavlink import mavutil
 import json, urllib, math
