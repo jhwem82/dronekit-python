@@ -1,10 +1,3 @@
-"""
-© Copyright 2015-2016, 3D Robotics.
-mission_basic.py: Example demonstrating basic mission operations including creating, clearing and monitoring missions.
-
-Full documentation is provided at http://python.dronekit.io/examples/mission_basic.html
-"""
-
 from dronekit import connect, VehicleMode, LocationGlobalRelative, LocationGlobal, Command
 import time
 import math
