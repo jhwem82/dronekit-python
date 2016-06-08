@@ -1,15 +1,3 @@
-"""
-© Copyright 2015-2016, 3D Robotics.
-mission_import_export.py: 
-
-This example demonstrates how to import and export files in the Waypoint file format 
-(http://qgroundcontrol.org/mavlink/waypoint_protocol#waypoint_file_format). The commands are imported
-into a list, and can be modified before saving and/or uploading.
-
-Documentation is provided at http://python.dronekit.io/examples/mission_import_export.html
-"""
-
-
 from dronekit import connect, Command
 import time
 
