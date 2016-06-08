@@ -1,13 +1,3 @@
-"""
-© Copyright 2015-2016, 3D Robotics.
-flight_replay.py: 
-
-This example requests a past flight from Droneshare, and then 'replays' 
-the flight by sending waypoints to a vehicle.
-
-Full documentation is provided at http://python.dronekit.io/examples/flight_replay.html
-"""
-
 from dronekit import connect, Command, VehicleMode, LocationGlobalRelative
 from pymavlink import mavutil
 import json, urllib, math
@@ -15,7 +5,8 @@ import time
 
 #Set up option parsing to get connection string
 import argparse  
-parser = argparse.ArgumentParser(description='Load a telemetry log and use position data to create mission waypoints for a vehicle. Connects to SITL on local PC by default.')
+parser = argparse.ArgumentParser(description='Load a telemetry log and use position data to create mission waypoints for a vehicle. 
+                                            Connects to SITL on local PC by default.')
 parser.add_argument('--connect', help="vehicle connection target.")
 parser.add_argument('--tlog', default='flight.tlog',
                    help="Telemetry log containing path to replay")
